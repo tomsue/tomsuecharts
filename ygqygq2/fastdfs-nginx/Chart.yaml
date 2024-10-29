@@ -1,0 +1,18 @@
+apiVersion: v2
+appVersion: "6.08"
+dependencies:
+- name: common
+  repository: https://charts.bitnami.com/bitnami
+  tags:
+  - bitnami-common
+  version: 1.x.x
+description: FastDFS-Nginx chart for Kubernetes
+name: fastdfs-nginx
+version: 2.1.0
+home: https://github.com/happyfish100/fastdfs
+icon:
+keywords:
+- fastdfs
+maintainers:
+- email: 29ygq@sina.com
+  name: ygqygq2

@@ -1,0 +1,28 @@
+annotations:
+  category: Infrastructure
+  licenses: Apache-2.0
+  images: |
+    - name: nginx-exporter
+      image: docker.io/bitnami/nginx-exporter:latest
+    - name: nginx
+      image: docker.io/bitnami/nginx:latest
+apiVersion: v2
+appVersion: "1.0.0"
+dependencies:
+- name: common
+  repository: https://ygqygq2.github.io/charts/
+  tags:
+  - bitnami-common
+  version: 2.x.x
+description: A Helm chart for Kubernetes
+name: mdb
+version: 5.0.7
+maintainers:
+- email: ygqygq2@qq.com
+  name: ygqygq2
+home:
+icon:
+keywords:
+- template
+- helm
+sources:
